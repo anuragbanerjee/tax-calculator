@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tax Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="calculator">
+	<div id="header">
+		<h1>Tax Calculator</h1>
+	</div>
+	<label for="salary">Salary</label>
+	<input type="text" id="salary" pattern="[0-9]*" value="">
+	<label for="federal-income-tax">Federal Income Tax</label>
+	<input type="text" id="federal-income-tax" disabled>
+	<label for="FICA-tax">FICA Tax</label>
+	<input type="text" id="FICA-tax" disabled>
+	<label for="state-tax">GA Income Tax</label>
+	<input type="text" id="state-tax" disabled>
+	<label for="take-home-pay">Take Home Pay</label>
+	<input type="text" id="take-home-pay" disabled>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
